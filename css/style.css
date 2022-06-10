@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 0 4rem;
+}
+a{
+    text-decoration: none;
+}
+header .allheader{
+    background-color: #F6F6F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 15px;
+    text-align: center;
+    word-spacing: 3px;
+}
+header .allheader .left{
+    width: 22%;
+    text-align: left;
+}
+header .allheader .left i{
+    color: #878787;
+    font-size: 12px;
+    margin-left: 10px;
+}
+header .allheader .left a{
+    color: #878787;
+    font-size: 12px;
+    transition: .3s;
+}
+header .left a:hover{
+    color: #56cfe1;;
+}
+header .allheader .center{
+    width: 30%;
+}
+header .allheader .center p{
+    color: #878787;
+    font-size: 14px;
+}
+header .allheader .center p strong{
+    color: #EC0101;
+    font-size: 14px;
+}
+header .allheader .center p a{
+    color: #222222;
+    font-size: 14px;
+    transition: .3s;
+}
+header .center p a:hover{
+    color: #56cfe1;
+}
+header .allheader .right{
+    width: 20%;
+    text-align: right;
+}
+header .allheader .right i{
+    color: #878787;
+    font-size: 14px;
+
+}
+header .allheader .right a{
+    color: #878787;
+    font-size: 14px;
+    transition: .3s;
+}
+header .right  a:hover{
+    color: #56cfe1;
+    cursor: pointer;
+}
+header .allheader .right img{
+    width: 5%;
+    margin-left: 10px;
+}
+header .allheader .right span{
+    color: #878787;
+    font-size: 14px;
+    transition: .3s;
+}
+header .right  span:hover{
+    color: #56cfe1;
+    cursor: pointer;
+}
+@media (max-width:576px){
+    header .allheader{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 20px;
+    }
+    header .allheader .left {
+        width: 100%;
+        text-align: center;
+    }
+    header .allheader .center{
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+    header .allheader .right{
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+nav .allnav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     padding: 1rem 0;
+}
+nav .allnav .left{
+    width: 8%;
+}
+nav .allnav .left img{
+    width: 100%;
+    cursor: pointer;
+}
+nav .allnav .center{
+    width: 60%;
+    text-align: right;
+}
+nav .allnav .center a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666565;
+    margin-left: 25px;
+    position: relative;
+    transition: .3s;
+}
+nav .allnav .center a:hover{
+    color: #56cfe1;
+}
+nav .center .two {
+    position: absolute;
+    top: -13px;
+    font-size: 10px;
+    right: -19px;
+    background: #ffa800;
+    color: #fff;
+    border-radius: 30px;
+    padding: 1px 8px;
+}
+nav .center span{
+    position: absolute;
+    top: -13px;
+    font-size: 10px;
+    right: -19px;
+    background: #00badb;
+    color: #fff;
+    border-radius: 30px;
+    padding: 1px 8px;
+}
+nav .allnav .right{
+    width: 30%;
+    text-align: right;
+    position: relative;
+}
+nav .allnav .right i{
+    color: #666565;
+    font-size: 20px;
+    margin-left: 15px;
+    transition: .3s;
+    cursor: pointer;
+}
+nav .allnav .right i:hover{
+    border-color: #56cfe1;
+    color: #56cfe1;
+    transform: scale(1.1);
+}
+nav .right span{
+    position: absolute;
+    top: -9px;
+    font-size: 10px;
+    right: 35px;
+    background: black;
+    color: #fff;
+    border-radius: 80%;
+    padding: 1px 5px;
+    z-index: 1;
+}
+nav .right .one{
+    position: absolute;
+    top: -10px;
+    font-size: 10px;
+    right: -10px;
+    background: black;
+    color: #fff;
+    border-radius: 80%;
+    padding: 1px 5px;
+    z-index: 1;
+}
+.navphone{
+    display: none;
+}
+.navphone .allnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15px;
+    width: 100%;
+}
+.navphone .lefts{
+    width: 19%;
+}
+.navhone .lefts svg{
+    width: 100%;
+}
+.navphone .allnav .left{
+   width: 30%;
+}
+.navphone .allnav .left img{
+   width: 100%;
+   cursor: pointer;
+}
+.navphone .allnav .right{
+   width: 21%;
+   text-align: right;
+   position: relative;
+}
+.navphone .allnav .right i{
+   color: #666565;
+   font-size: 17px;
+   margin-left: 15px;
+   transition: .3s;
+   cursor: pointer;
+}
+.navphone .allnav .right i:hover{
+   border-color: #56cfe1;
+   color: #56cfe1;
+   transform: scale(1.1);
+}
+.navphone .right .one{
+   position: absolute;
+   top: -10px;
+   font-size: 10px;
+   right: -10px;
+   background: black;
+   color: #fff;
+   border-radius: 80%;
+   padding: 1px 5px;
+   z-index: 1;
+}
+@media (max-width:576px){
+    nav{
+        display: none;
+    }
+    .navphone{
+        display: block;
+    }
+}
+#second{
+    background-image: url("https://cdn.shopify.com/s/files/1/0616/9480/4174/files/2_3000x.jpg?v=1652056793");
+    height: 100vh;
+    background-size: cover;
+}
+#second .allsecond{
+    width: 100%;
+}
+#second .allsecond .text{
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+#second .allsecond .text h1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #474646;
+    margin-bottom: 30px;
+    
+}
+#second .left{
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    text-align: left;
+   
+}
+#second p{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 24px;
+    color: #222222;
+    margin-bottom: 40px;
+}
+#second a{
+    color: #fff;
+    font-size: 14px;
+    background-color: #222222;
+    padding: 12px 40px;
+    z-index: 1;
+    position: relative;
+}
+
+#second a::before {
+    content: 'Explore Now';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition: .7s;
+    opacity: 0;
+    text-align: center;
+}
+#second a::after {
+    content: 'Explore Now';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    transition: .7s;
+    opacity: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second a:hover::after{
+    opacity: 1;
+    height: 100%;
+    background-color: #00badb;
+    color: #fff;
+}
+#second a:hover::before{
+    opacity:1;
+    height: 100%;
+    background-color: #00badb;
+    color: #fff;
+}
+#secondphone{
+    display: none;
+}
+#secondphone{
+    background-position: center;
+    padding: 3rem 0;
+    width: 100%;
+    background: no-repeat;
+    background-image: url("https://cdn.shopify.com/s/files/1/0616/9480/4174/files/2_575x.jpg?v=1652056793");
+}   
+#secondphone .allsecond{
+    width: 100%;
+}
+#secondphone .allsecond .text h1{
+    font-weight: 500;
+    font-size: 16px;
+    color: #474646;
+}
+#secondphone .left{
+    text-align: center;
+    width: 100%;
+}
+#secondphone p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 45px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+#secondphone a{
+    color: #fff;
+    font-size: 14px;
+    background-color: #222222;
+    padding: 12px 40px;
+}
+@media (max-width:576px){
+    #second{
+        display: none;
+    }
+    #secondphone{
+        display: block;
+    }
+}
+
+
+
+
+
